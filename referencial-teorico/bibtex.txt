@@ -9,7 +9,7 @@
 %% arquivo references-examples.bib.
 }}
 
-@inproceedings{garland1997surface,
+@inproceedings{art-garland1997surface,
   title={Surface simplification using quadric error metrics},
   author={Garland, Michael and Heckbert, Paul S},
   booktitle={Proceedings of the 24th annual conference on Computer graphics and interactive techniques},
@@ -18,7 +18,7 @@
 }
 
 
-@inproceedings{garland1998simplifying,
+@inproceedings{art-garland1998simplifyingtex,
   title={Simplifying surfaces with color and texture using quadric error metrics},
   author={Garland, Michael and Heckbert, Paul S},
   booktitle={Proceedings Visualization'98 (Cat. No. 98CB36276)},
@@ -28,7 +28,7 @@
 }
 
 
-@inproceedings{cohenjon,
+@inproceedings{art-cohenjon1998aperancepresenving,
 author = {Cohen, Jonathan and Olano, Marc and Manocha, Dinesh},
 title = {Appearance-preserving simplification},
 year = {1998},
@@ -45,7 +45,7 @@ series = {SIGGRAPH '98}
 }
 
 
-@article{effiecientbaking,
+@article{art-schafer2012effiecientbaking,
 title = {Memory efficient light baking},
 journal = {Computers & Graphics},
 volume = {36},
@@ -62,7 +62,7 @@ abstract = {In real-time rendering, global lighting information that is too expe
 }
 
 
-@inproceedings{wendling2025deformed,
+@inproceedings{art-wendling2025deformed,
   title={Deformed tiling and blending: application to the correction of distortions implied by texture mapping},
   author={Wendling, Quentin and Ravaglia, Joris and Sauvage, Basile},
   booktitle={Computer Graphics Forum},
@@ -71,7 +71,7 @@ abstract = {In real-time rendering, global lighting information that is too expe
   organization={Wiley Online Library}
 }
 
-@inproceedings{praun2000lapped,
+@inproceedings{art-praun2000lapped,
   title={Lapped textures},
   author={Praun, Emil and Finkelstein, Adam and Hoppe, Hugues},
   booktitle={Proceedings of the 27th annual conference on Computer graphics and interactive techniques},
@@ -79,7 +79,7 @@ abstract = {In real-time rendering, global lighting information that is too expe
   year={2000}
 }
 
-@inproceedings{reactdiffusion,
+@inproceedings{art-turk1991reactdiffusion,
 author = {Turk, Greg},
 title = {Generating textures on arbitrary surfaces using reaction-diffusion},
 year = {1991},
@@ -96,7 +96,7 @@ keywords = {texture mapping, reaction-diffusion, biological models},
 series = {SIGGRAPH '91}
 }
 
-@inproceedings{progressivemesh,
+@inproceedings{art-sander2001progressivemesh,
   title={Texture mapping progressive meshes},
   author={Sander, Pedro V and Snyder, John and Gortler, Steven J and Hoppe, Hugues},
   booktitle={Proceedings of the 28th annual conference on Computer graphics and interactive techniques},
@@ -104,7 +104,7 @@ series = {SIGGRAPH '91}
   year={2001}
 }
 
-@inproceedings{turk1992re,
+@inproceedings{art-turk1992retiling,
   title={Re-tiling polygonal surfaces},
   author={Turk, Greg},
   booktitle={Proceedings of the 19th annual conference on Computer graphics and interactive techniques},
@@ -112,7 +112,7 @@ series = {SIGGRAPH '91}
   year={1992}
 }
 
-@article{CHEN201537,
+@article{art-chen2015vertclustering,
 title = {An improved texture-related vertex clustering algorithm for model simplification},
 journal = {Computers & Geosciences},
 volume = {83},
@@ -126,6 +126,12 @@ keywords = {3D GIS, Model simplification, Adaptive partitioning, Vertex clusteri
 abstract = {As an important data source in 3D GIS, 3D landmark models are built to simulate the real-world scenario. However, due to the enormous volume and complexity of 3D models, the data transmission under limited bandwidth and the real-time rendering have always been an open problem. In order to improve the visualization and the efficiency, this paper proposes a novel model simplification algorithm in consideration of texture after the analysis of the existing model simplification approaches. Differing from the previous research, our approach defines a new error metric related to the model texture, which extends the vertex clustering scheme in 3D geometry space and 2D texture space independently. Since the uneven distribution of vertices is taken into account, the clustering unit is divided adaptively in consideration of both geometry and texture information. In view of reducing the memory overhead and improving the algorithm efficiency, we don’t create new vertices by iterative calculations, but use the inherent vertices in the initial meshes as the characteristic vertices. To demonstrate the feasibility and effectiveness of our strategy, a series of simplification experiments have been carried out on the platform of DirectX 3D, a widely used 3D application programming interface. The results show that the simplified models in consideration of texture preserve more texture details than those traditional ones. It apparently makes a good balance between the reduction rate and visual effects.}
 }
 
-
+@book{livro-foley1996computer,
+  title={Computer graphics: principles and practice},
+  author={Foley, James D},
+  volume={12110},
+  year={1996},
+  publisher={Addison-Wesley Professional}
+}
 
 @Comment{jabref-meta: databaseType:biblatex;}
